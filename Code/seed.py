@@ -17,5 +17,5 @@ def seed(n):
     l = lattice(n)
     for i in range(n):
         for j in range(n):
-            l[i,j] = int(2*np.random.random())
+            l[i,j] = int(2*np.random.random()) + 1
     return l
